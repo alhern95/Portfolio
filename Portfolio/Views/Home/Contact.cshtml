@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Contact Me";
+}
+
+<body>
+    <div class="wrapper d-flex justify-content-center align-items-center" style="height: 100%;">
+        <div>
+            <h1 class="text-center">@ViewData["Title"]</h1>
+            <div class="text-left">
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label" for="fullName">Your Name</label>
+                        <input class="form-control" itemid="fullName" placeholder="Enter name"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="email">Your Email</label> 
+                        <input class="form-control" action="email" itemid="email" placeholder="Enter email"/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="message">Your Message</label>
+                        <textarea class="form-control" placeholder="Enter message"></textarea>
+                    </div>
+                    <div class="text-center mt-3">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
