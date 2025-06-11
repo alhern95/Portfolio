@@ -14,6 +14,7 @@ html {
 }
 
 body {
+  padding-top: 60px;
   margin-bottom: 60px;
   background-color: #d9d9d9;
 }
@@ -45,8 +46,7 @@ html, body {
   align-items: center;
   padding: 0 5%;
   box-sizing: border-box;
-  width: 100vw;
-  border: 1px solid black;
+  width: 100%;
 }
 
 .text-container {
@@ -74,4 +74,18 @@ button {
   width: 210px;
   height: 55px;
   align-items: center;
+}
+
+.experience-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.experience-title {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 26px;
 }

@@ -1,8 +1,7 @@
 /* _content/Portfolio/Views/Shared/_Layout.cshtml.rz.scp.css */
 .footer[b-0aq0x0b44y] {
-  /* position: absolute;
-  bottom: 0; */
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+  border-top: black solid 1px;
 }
